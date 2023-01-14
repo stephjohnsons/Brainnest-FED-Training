@@ -1,0 +1,99 @@
+Stephen Tseu 
+Group A, Week 1 Assignment 1: HTML – Terminology and Definitions 
+-----
+1.	What do HTML and CSS stand for? 
+HTML stands for “HyperText Markup Language”, and CSS stands for “Cascading Style Sheets”.
+
+2.	Would you rather use HTML or CSS, for putting paragraphs of text on a webpage? 
+HTML would be a better option, as paragraphs of text have to do with the structure of a webpage. 
+
+3.	Would you rather use HTML or CSS, to change the font and background color of a button? 
+CSS would be a better option, as CSS allows for easy instructions to determine colours, font family, and other style-related attributes for HTML.
+
+4.	What is an HTML tag? 
+An HTML tag is the beginning or ending of an HTML element. It is usually indicated using angle brackets (<>).
+
+5.	What are the three parts of an HTML element? (Image from paragraph) 
+An HTML element consists of an opening tag, a closing tag, and the contents of the element. 
+For example, <p> paragraph </p>, which consists of the opening tag, contents, and closing tag. 
+
+6.	What is the purpose of the doctype declaration? 
+It declares the version of HTML used within the HTML document. 
+This instruction is important for browsers to know which version of HTML they should use to render the webpage. 
+
+7.	What is the HTML element? 
+There are three main HTML elements within an HTML document, which is the <html> element, <head> element, and the <body> element.
+
+8.	What is the purpose of the head element? 
+The <head> element consists of information about the website, such as meta-information. 
+Tags within this element will not be displayed on the website.
+
+9.	What is the purpose of the body element? 
+The <body> element consists of the displayable elements of a website, such as the headers, paragraphs, images etc.
+
+10.	How do you create a paragraph in HTML? 
+We create a paragraph in HTML by using the <p></p> tags. Contents of the text will be inserted between the opening and closing tags.
+ 
+11.	How do you create a heading in HTML? 
+By using <h1> to <h6> tags within the <body> tag of an HTML document. 
+
+12.	How many different levels of headings are there and what is the difference between them? 
+There are 6 levels of headings. The smaller the level of heading (h1, h2), the larger the font size. 
+
+13.	What element should you use to make text bold and important? 
+Depending on the purpose of the bold. If the text is to be made an important key word so that search engines could find it, 
+use <strong></strong>. Or else, we should use <b></b> to make text bold.
+
+14.	What element should you use to make text italicized to add emphasis to it? 
+<em></em>, which stands for emphasis.
+
+15.	What relationship does an element have with any nested elements within it? 
+An element with nested elements is a parent element, whereas the smaller, nested elements are called child elements. 
+Together they have a parent-children relationship.  
+
+16.	What relationship do two elements have if they are at the same level of nesting? 
+Two elements at the same level of nesting who share the same parent element have a sibling relationship.
+
+17.	How do you create HTML comments? 
+HTML comments can be created using the comment tag (<!-- … -->) to explain any code or any changes made to them within the HTML document. 
+
+18.	What HTML tag is used to create an unordered list? 
+<ul></ul>, which stands for unordered list. 
+
+19.	What HTML tag is used to create an ordered list? 
+<ol></ol>, which stands for ordered list. 
+
+20.	What HTML tag is used to create list items within both unordered and ordered lists? 
+List items should be created with <li></li> within the <ul> or <ol> tag.
+
+21.	What element is used to create a link? 
+<a></a>, which stands for anchor. 
+
+22.	What is an attribute? 
+HTML elements can have attributes, which provides additional information about elements. 
+Attributes are usually included in opening tags with name/value pairs, 
+for example: <ol start=”10”> means that the ordered list (element) should start (attribute name) from the number 10 (attribute value). 
+
+23.	What attribute tells links where to go? 
+<a href> is the attribute that tells links where to go. href is short for hyperlink reference. 
+
+24.	What is the difference between an absolute and relative link? 
+An absolute link is an absolute hyperlink that is available on the worldwide web. 
+Such links are usually external websites that are hosted on different servers. 
+A relative link is shorter and directs the link to a webpage that is hosted on the same server 
+(in any level of directories, whether higher or lower) as the current webpage. 
+
+25.	Which element is used to display an image? 
+<img>. This element is an empty element, so a closing tag is not needed. 
+
+26.	What two attributes do images always need to have? 
+The two attributes are <img src> and <img alt>. 
+The <img src> points out the source of the image, 
+and <img alt> allows users to see the description of the image when 
+the person is (1) using a screen reader, or (2) unable to see the image.
+
+27.	How do you access a parent directory in a file path? 
+By using“../” in file paths, I can access files from a parent directory (the folder one level up from the current folder).
+
+28.	What are the four main image formats that you can use for images on the web? 
+They are .png, .jpeg (.jpg), .gif, and .tiff. 
