@@ -1,0 +1,142 @@
+Stephen Tseu 
+Week 2 Assignment 1: CSS – Terminology and Definitions 
+-----
+
+1. What are the main differences between external, internal, and inline CSS?
+    * External CSS is where a CSS document is separated from the HTML document.
+    The document is connected into HTML as a stylesheet. 
+    * Internal CSS is where CSS are embedded into the <style></style> section 
+    under <head></head> of an HTML document.
+    * Inline CSS is where CSS is indicated within the HTML elements itself, i.e., 
+    <p style="font-size:10px;"></p>, which indicates that this paragraph
+    will be shown in font size 10px on the HTML document only. 
+
+2. What is the syntax for class and ID selectors?
+    The syntax for class is preceded by a full stop (.class), 
+    while for ID, it is preceded by a hash character (#id). 
+
+3. How would you apply a single rule to two different selectors?
+    Use grouping selectors.
+
+4. Given an element that has an id of title and a class of primary, 
+how would you use both attributes for a single rule?
+    I would use the selector ".primary#title {}".
+
+5. What does the descendant combinator do?
+    Focus on the child (descedant) selector(s) that is nested within 
+    the parent selector(s). For example, .parent.child will allow us 
+    to apply rules only to the .child class(es) nested within the .parent class. 
+
+6. Between a rule that uses one class selector and a rule that 
+uses three type selectors, which rule has the higher specificity?
+
+    The ID selectors will have higher specificity. 
+
+
+7. From inside to outside, what is the order of box-model properties?
+    Content > padding > border > margin 
+
+8. What does the box-sizing CSS property do?
+    Box-sizing property allows an element to include the padding and
+    border within its width and height. 
+
+9. What is the difference between the standard and alternative box model?
+    A standard box model will define the inline-size and block-size 
+    of the content box. For example, a box with 350x150px (WxH) with 
+    a padding of 10px and border of 5px will have actual space of 
+    350+20+10 (W) and 150+20+10 (H), which is 380x180px.
+
+    In the alternative box model, elements will have a 350x150px space 
+    according to the above example, regardless of its padding and border. 
+    To allow for this, set the box-sizing property as "border-box. 
+
+10. Would you use margin or padding to create more space between 2 elements?
+    Margin.
+
+11. Would you use margin or padding to create more space between the contents 
+of an element and its border?
+    Padding.
+
+
+12. Would you use margin or padding if you wanted two elements to overlap each other?
+    Padding. 
+
+13. What is the difference between a block element and an inline element?
+    Block elements will start with a new line, and takes up the full width 
+    available. This includes <p> or <div>. 
+
+    Inline elements will begin in the same line as its previous element. 
+    It will only take up as much width as necessary (or as the content).
+
+14. What is the difference between an inline element and an inline-block element?
+    Inline-block allows to set a width and height on the element, along 
+    with margins and paddings. It also does not add a line-break after this,
+    so that this element can sit next to other elements. 
+
+    Inline elements do not have editable width of height. A line-break is 
+    not added, but the elements will adjust according to the dimensions 
+    of inline elements. 
+
+15. Is an h1 block or inline?
+    Block.
+
+16. Is button block or inline?
+    Inline. 
+
+17. Is div block or inline?
+    Block.
+
+18. Is span block or inline?
+    Inline. 
+
+19. What is the difference between a flex container and a flex item?
+    Flex container is the HTML element whose display property's value 
+    is flex or inline-flex. It is a block-level element. 
+
+    Flex items are the direct children within the flex container. 
+
+20. How do you create a flex item?
+    By using the "display: flex" or "display: inline-flex" to create 
+    a flex container, the items within the container will become 
+    flex items. 
+
+21. What are the 3 values defined in the shorthand flex property?
+    The three values are flex-grow | flex-shrink | flex-basis. 
+    Flex-grow defines the flex-grow factor of a flex item's main size. 
+    Flex-shrink defines the flex-shrink factor of a flex item's main size.
+        If the size of all flex items is larger, then items will shrink to 
+        fit according to its flex-shrink factor.  
+    Flex-basis sets the initial main size of a flex item. 
+
+22. How do you make flex items arrange themselves vertically instead of horizontally?
+    By using "flex-direction: column". However, flexboxes may only 
+    use horizontal rows or vertical columns at a time. 
+
+23. What is the difference between justify-content and align-items?
+    Justify-content defines the alignment along the main axis (x). 
+        It helps distribute extra free space when all the flex items 
+        are inflexible, or are flexible but have reached their max size. 
+    Align-items definites the alignment along the cross axis (y) of main axis. 
+        
+24. How do you use flexbox to completely center a div inside a flex container?
+    I can do so by using the below codes within the CSS selector: 
+    .selector {
+        display: flex;
+        justify-content: center;
+    }
+
+    This way, it will arrange the div into flexbox structure, 
+    with its content justified to the center. 
+
+25. What is the difference between justify-content: space-between 
+    and justify-content: space-around?
+
+    Space-between will create extra free space between flex items within
+        the flex container itself. However, there will be no extra space 
+        before and after the group of flex items. 
+    Space-around will create evenly distributed spaces around flex items. 
+        This means that each item will have x amount of space around them.
+        Visually it will look something like this "| x item 2x item 2x item x |".
+        As there are equal spaces around each item, the space between 
+        each items will have two units of space, whereas the space 
+        before and after the group of flex items will have one unit. 
