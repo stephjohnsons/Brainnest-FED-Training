@@ -58,7 +58,8 @@ of an element and its border?
     Padding.
 
 
-12. Would you use margin or padding if you wanted two elements to overlap each other?
+12. Would you use margin or padding if you wanted two elements to 
+overlap each other?
     Padding. 
 
 13. What is the difference between a block element and an inline element?
@@ -129,7 +130,7 @@ of an element and its border?
     with its content justified to the center. 
 
 25. What is the difference between justify-content: space-between 
-    and justify-content: space-around?
+and justify-content: space-around?
 
     Space-between will create extra free space between flex items within
         the flex container itself. However, there will be no extra space 
