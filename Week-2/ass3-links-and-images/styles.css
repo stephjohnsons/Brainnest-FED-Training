@@ -132,7 +132,7 @@ a:hover {
 .menu {
     margin-left: 20px;
     background-color: #a8aec5;
-    width: 25rem;
+    width: 84%;
     border-radius: 5px;
     padding: 5px 0px 2px 0px;
     margin-bottom: 10px;
@@ -230,9 +230,24 @@ ending {
     background-color: burlywood;
 }
 
-.menu-legend {
+.menu-item .menu-legend {
     background-color: inherit;
     color: #000000;
     font-style: italic;
     font-size: 11px;
+    opacity: 0.6;
+}
+
+.menu-indicator {
+    display: flex;
+    background-color: inherit;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.menu-item .menu-desc {
+    max-height: 5px;
+    flex-grow: 2;
+    color: inherit;
+    opacity: 0.6;
 }
