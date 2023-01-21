@@ -56,9 +56,9 @@ for header and section 1 */
 .section-one {
     display: flex; 
     flex-wrap: nowrap;
-    padding: 5em 15% 8em 15%;
+    padding: 4rem 15% 8rem 15%;
     height: 57%;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .section-one h1 {
@@ -68,6 +68,7 @@ for header and section 1 */
 
 .section-one-wrap {
     width: 50%;
+    height: 110%;
 }
 
 .h1-desc {
@@ -100,7 +101,6 @@ for header and section 1 */
 }
 
 /* Section 2 Random Info */
-
 .section-two h2 {
     text-align: center;
     font-weight: 600;
@@ -111,8 +111,8 @@ for header and section 1 */
 
 .blank-img {
     border: 4px solid #3882F6;
-    height: 10rem;
-    width: 10rem;
+    height: 10em;
+    width: 10em;
     border-radius: 15px;
 }
 
@@ -135,7 +135,6 @@ for header and section 1 */
 } 
 
 /* Section 3 (Quote) */
-
 .section-three {
     background-color: #E5E7EB;
 }
@@ -164,16 +163,14 @@ for header and section 1 */
 }
 
 /* Section 4 CTA */
-
 .section-four {
     background-color:#3882F6;
     color: white;
-    margin: 6rem 15%;
+    margin: 6rem 10% 6rem 15%;
     border-radius: 10px;
     padding: 1em;
     display: flex;
     flex-direction: row;
-    height: 8em;
 }
 
 #cta-group {
@@ -182,8 +179,8 @@ for header and section 1 */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 10%;
-    width: 80%;
+    padding: 2rem 10%;
+    width: 78%;
 }
 
 #cta {
@@ -210,7 +207,6 @@ for header and section 1 */
 }
 
 /* Footer */
-
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
