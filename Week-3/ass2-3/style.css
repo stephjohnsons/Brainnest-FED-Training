@@ -1,0 +1,47 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: rgb(229,208,239);
+    background-color: rgb(46,67,114);
+}
+
+h3 {
+    background-color: rgb(27, 41, 74);
+    padding: 8px;
+}
+
+form {
+    color: inherit;
+}
+
+footer {
+    font-size: 0.8em;
+    margin-top: 50px;
+}
+
+#log {
+    background-color: rgb(45, 45, 45);
+    color: rgb(233, 233, 233);
+    font-family: Consolas, monospace;
+    padding: 10px;
+}
+
+.log-caption {
+    font-size: 0.9em;
+}
+
+button { 
+    padding: 5px 15px; 
+    background-color: rgb(45, 45, 45);
+    color: rgb(229,208,239);
+    border: 2px solid; 
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+button:hover {
+    background-color: rgb(229,208,239);
+    color: rgb(45, 45, 45);
+    border: 2px solid rgb(229,208,239);
+    box-shadow: 5px 5px 5px grey;
+    transition: 200ms;
+}
