@@ -101,3 +101,5 @@ console.log(
     a circumference of ≈${circumference} and 
     a surface area of ≈${surfaceArea}.`
 );
+
+// All calculated answers are rounded up to 3 decimal places with the .toFixed() method.
