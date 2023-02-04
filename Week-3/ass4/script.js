@@ -76,4 +76,3 @@ function game() {
 
 // Call the function game().
 game();
-
