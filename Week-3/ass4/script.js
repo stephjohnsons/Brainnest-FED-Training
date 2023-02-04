@@ -60,6 +60,9 @@ function playRound(playerSelection, computerSelection) {
 
 // Record results of five rounds with just one call of the function. 
 function game() {
+    /* i = 1 is used instead of 0. 
+    *   The console.log output will be generated as 
+    *   round 1 to 5, rather than round 0 to round 4. */   
     for (let i = 1; i < 6; i++) {
         console.log(i);
         // Prompts user to enter five answers each time. 
@@ -71,5 +74,6 @@ function game() {
     };
 };
 
+// Call the function game().
 game();
 
