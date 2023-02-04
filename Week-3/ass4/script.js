@@ -66,7 +66,7 @@ function game() {
     for (let i = 1; i < 6; i++) {
         console.log(i);
         // Prompts user to enter five answers each time. 
-        var playerSelection = prompt("Rock, paper, or scissors?\nType your answer and click OK!");
+        var playerSelection = prompt("Rock, paper, or scissors?\nType your answer and click OK!").toLowerCase();
         // Generates a random computer selection. 
         const computerSelection = computerPlay();
         // Logs results on the console. 
