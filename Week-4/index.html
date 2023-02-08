@@ -1,1 +1,55 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title> Rock, Paper, Scissors </title>
+</head>
+<body>
+    <div class="content">
+        <h1> Rock, Paper, Scissors </h1>
+        <div class="footer">
+            © Created by Stephen.
+        </div>
+        <div class="selection">
+            <h2 class="selection-text"> Computer Selection </h2>
+            <img src="icons/rock.svg" class="selection-icon rock" onclick="handleSelection('rock')"></img>
+            <img src="icons/paper.svg" class="selection-icon paper" onclick="handleSelection('paper')"></img>
+            <img src="icons/scissors.svg" class="selection-icon scissors" onclick="handleSelection('scissors')"></img>
+        </div>
+        
+        <div class="result">
+            <h4 class="result-header"> 
+                Results: 
+                <span id="result-win"></span> 
+                <span id="result-lose"></span> 
+                <span id="result-tie"></span> 
+            </h4>
+        </div>
+
+        <div class="selection">
+            <h2 class="selection-text"> Your Selection </h2>
+            <img src="icons/rock.svg" class="selection-icon rock" onclick="handleSelection('rock')"></img>
+            <img src="icons/paper.svg" class="selection-icon paper" onclick="handleSelection('paper')"></img>
+            <img src="icons/scissors.svg" class="selection-icon scissors" onclick="handleSelection('scissors')"></img>
+        </div>
+        
+        <div class="choices">
+            <table class="choice-log">
+                <tr>
+                    <th colspan="2"> Log </th>
+                </tr>
+                <tr>
+                    <td class="log-com"> Computer </td>
+                    <td class="log-user"> User </td>
+                </tr>
+                <tr>
+                    <td id="result-row"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

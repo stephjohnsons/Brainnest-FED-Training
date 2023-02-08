@@ -1,0 +1,69 @@
+/* FONT-FAMILY
+===============*/
+@font-face {
+    font-family: "Unbounded";
+    src: url("font/Unbounded-VariableFont_wght.ttf");
+    font-weight: 200 900;
+}
+
+body {
+    height: 100vh;
+    width: 100vw; 
+    background-color: #695940;
+    font-family: 'Unbounded', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif;
+    color:rgb(196,238,99);
+    text-align: center;
+}
+
+.selection-icon {
+    width: 50px;
+    height: auto;
+    filter: invert(98%) sepia(81%) saturate(960%) hue-rotate(19deg) brightness(100%) contrast(87%);
+    padding: 20px;
+    background-color: #e9ca99;
+    border-radius: 40%;
+    margin-bottom: 20px;
+}
+
+.result {
+    display: inline-flex; 
+    width: 200px;
+    align-items: center;
+    padding: 0 40%;
+    color: #fecc8c;
+}
+
+#result-win {
+    color: rgb(120, 226, 120);
+}
+
+#result-lose {
+    color: rgb(255, 71, 71);
+}
+
+#result-tie {
+    color: rgb(216, 216, 216);
+}
+
+.choices {
+    width: 300px; 
+    color: #fecc8c;
+    margin: 10px auto;
+}
+
+.log-com,
+.log-user {
+    width: 30%;
+    font-weight: 400;
+}
+
+.footer {
+    font-size: 0.8em;
+    left: 10px;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+#result-row {
+    font-weight: 100;
+}
