@@ -27,3 +27,5 @@ Assignments for Brainnest Frondend Development Training Program.
   <li> Rock, Paper, Scissors with UI and match records </li>
   <li> Calculator with Paper Tape </li>
 </ul>
+
+<em> Note: Certain files may consist of comments or instructor remarks. </em>
