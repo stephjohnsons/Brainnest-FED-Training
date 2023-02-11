@@ -187,7 +187,7 @@ document.addEventListener('keydown', function (event) {
 let old = console.log;
 let logger = document.getElementById('tape-display');
 let logButton = document.getElementById('clear-btn');
-
+6
 (function () {
   if (!console) {
       console = {};
