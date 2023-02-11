@@ -89,8 +89,6 @@ function playRound(userSelection) {
         if (confirm("You won the match! Congratulations!\nPress OK to reset the game, or cancel to view your scores.")) {
             location.reload();
         } else {
-            const confetti = document.getElementById("confetti-container");
-            confetti.style.visibility = "visible";
             document.addEventListener("click", handler, true);
             function handler(e) {
                 e.stopPropagation();
