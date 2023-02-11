@@ -1,4 +1,9 @@
-// Set arrays of selection.
+// Set global variables. 
+let userMarks = 0; 
+let comMarks = 0; 
+let roundNumber = 1;
+
+// Set computer's selection.
 function comSel() {
     var comSelection;
     function randomInt() {
@@ -19,11 +24,6 @@ function comSel() {
 
     return comSelection;
 };
-
-// Set global variables. 
-let userMarks = 0; 
-let comMarks = 0; 
-let roundNumber = 1;
 
 // Function is triggered upon clicking the icons.
 function playRound(userSelection) {
