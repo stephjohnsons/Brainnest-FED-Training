@@ -98,6 +98,12 @@ class Calculator {
   };
 };
 
+// Define buttons and input.
+const numBtn = document.querySelectorAll('[data-number]');
+const operBtn = document.querySelectorAll('[data-operation]');
+const eqBtn = document.querySelector('[data-equals]');
+const clearBtn = document.querySelector('[data-all-clear]');
+const delBtn = document.querySelector('[data-delete]');
 // Query operands. 
 const preOperandTextElement = document.querySelector('[data-previous-operand]');
 const curOperandTextElement = document.querySelector('[data-current-operand]');
@@ -105,7 +111,6 @@ const calculator = new Calculator(preOperandTextElement, curOperandTextElement);
 
 // For all the functions called below, a updateDisplay() function is called. 
 // When number buttons are pressed, append the pressed number into the current operand.
-const numBtn = document.querySelectorAll('[data-number]');
 numBtn.forEach(button => {
   button.addEventListener('click', () => {
     calculator.appendNumber(button.innerText);
@@ -113,8 +118,7 @@ numBtn.forEach(button => {
   })
 });
 
-// When operation buttons are pressed, performs the operation. 
-const operBtn = document.querySelectorAll('[data-operation]');
+// When operation buttons are pressed, performs the operation.
 operBtn.forEach(button => {
   button.addEventListener('click', () => {
     calculator.chooseOperation(button.innerText);
@@ -122,22 +126,19 @@ operBtn.forEach(button => {
   })
 });
 
-// When equal button is pressed, the operands are computed. 
-const eqBtn = document.querySelector('[data-equals]');
+// When equal button is pressed, the operands are computed.
 eqBtn.addEventListener('click', button => {
   calculator.compute();
   calculator.updateDisplay();
 }); 
 
 // When All Clear button is clicked, clears the calculator.
-const clearBtn = document.querySelector('[data-all-clear]');
 clearBtn.addEventListener('click', button => {
   calculator.clear();
   calculator.updateDisplay();
 });
 
 // When delete button is clicked, the last appended number will be deleted. 
-const delBtn = document.querySelector('[data-delete]');
 delBtn.addEventListener('click', button => {
   calculator.delete();
   calculator.updateDisplay();
@@ -187,7 +188,7 @@ document.addEventListener('keydown', function (event) {
 let old = console.log;
 let logger = document.getElementById('tape-display');
 let logButton = document.getElementById('clear-btn');
-6
+
 (function () {
   if (!console) {
       console = {};
